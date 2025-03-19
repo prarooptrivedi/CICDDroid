@@ -35,6 +35,7 @@ class MainActivity2 : AppCompatActivity() {
         calculateButton.setOnClickListener {
 
             try {
+                // New Commit
                 val interestRate = interestEditText.text.toString().toFloat()
                 val currentAge = ageEditText.text.toString().toInt()
                 val retirementAge = retirementEditText.text.toString().toInt()
